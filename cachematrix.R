@@ -19,7 +19,7 @@
 ## inverse matrix back from the alternate enviroment.
 ## It returns everything as a list at the end.
 
-cacheMatrix <- function(matr = matrix()) {
+makeCacheMatrix <- function(matr = matrix()) {
   inv <- NULL
   set <- function(y) {
     matr <<- y
